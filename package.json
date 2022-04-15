@@ -1,0 +1,17 @@
+{
+  "name": "league_of_fairfax_chatbot",
+  "version": "1.0.0",
+  "description": "Chatbot for League of Fairfax",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "hi"
+  ],
+  "author": "neskech",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
