@@ -60,7 +60,7 @@ inputField = document.getElementById('input')
 document.getElementById('form').addEventListener('submit', (e) => {
     const data = Object.fromEntries(new FormData(e.target).entries());
 
-    text = data['Chatbot-Input']
+    text = data['Chatbot-Input'] + '...'
     TextWrapper(tag, text, timeStepText, variance)
     inputField.value = ''
 
